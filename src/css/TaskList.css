@@ -1,0 +1,20 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.clear-list-button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.clear-list-button {
+  font-size: 0.85em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #cb3234;
+  background-color: transparent;
+}

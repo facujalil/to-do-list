@@ -1,0 +1,44 @@
+li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+
+.complete-button {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  background-color: transparent;
+  border: 1px solid #000000;
+}
+
+li p {
+  list-style: none;
+  color: #000000;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #000000;
+}
+
+.delete-button-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.delete-button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.delete-button i {
+  vertical-align: middle;
+  font-size: 1.25em;
+  color: #cb3234;
+  user-select: none;
+}

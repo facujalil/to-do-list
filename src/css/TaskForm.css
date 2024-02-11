@@ -1,0 +1,40 @@
+form {
+  width: 100%;
+}
+
+.form-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form input,
+form button {
+  font-family: "Roboto", sans-serif;
+  background-color: #e7e7e7;
+}
+
+form input {
+  width: 15.5rem;
+  height: 2rem;
+  padding: 0 0.8rem;
+  font-size: 1em;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  user-select: none;
+}
+
+form button {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.25em;
+  font-weight: 700;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 350px) {
+  form input {
+    width: 13.5rem;
+  }
+}
