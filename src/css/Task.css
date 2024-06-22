@@ -1,7 +1,9 @@
 li {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
   padding-bottom: 0.8rem;
+  list-style: none;
   border-bottom: 1px solid rgb(0, 0, 0, 0.2);
   border-radius: 2px;
 }
@@ -9,26 +11,20 @@ li {
 .complete-button {
   width: 1.5rem;
   height: 1.5rem;
-  margin-right: 0.5rem;
   background-color: transparent;
   border: 1px solid #000000;
 }
 
 li p {
-  list-style: none;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
   color: #000000;
 }
 
 .completed {
   text-decoration: line-through;
   color: #000000;
-}
-
-.delete-button-container {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 .delete-button {

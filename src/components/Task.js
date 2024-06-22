@@ -15,14 +15,12 @@ function Task({ task }) {
         {task.completed ? "✓" : null}
       </button>
       <p className={task.completed ? "completed" : null}>{task.text}</p>
-      <div className="delete-button-container">
-        <button
-          className="delete-button"
-          onClick={() => dispatch(deleteTask(task.id))}
-        >
-          <i className="material-symbols-outlined">delete</i>
-        </button>
-      </div>
+      <button
+        className="delete-button"
+        onClick={() => dispatch(deleteTask(task.id))}
+      >
+        <i className="material-symbols-outlined">delete</i>
+      </button>
     </li>
   );
 }
