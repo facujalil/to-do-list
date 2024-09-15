@@ -5,7 +5,7 @@ function Task({ task, dispatch }) {
   return (
     <li>
       <button
-        className="complete-button"
+        className="toggle-completion-button"
         onClick={() =>
           dispatch({ type: "toggle_task_completion", payload: task.id })
         }
