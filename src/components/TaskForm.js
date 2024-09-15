@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 import "../css/TaskForm.css";
-import { useDispatch } from "react-redux";
 import uuid from "react-uuid";
-import { addTask } from "../store/tasksSlice";
 
-function TaskForm() {
-  const dispatch = useDispatch();
-
+function TaskForm({ dispatch }) {
   const [input, setInput] = useState("");
 
   const handleSubmit = (e) => {
@@ -18,7 +14,7 @@ function TaskForm() {
         text: input,
         completed: false,
       };
-      dispatch(addTask(newTask));
+      dispatch({ type: "add_task", payload: newTask });
     }
     setInput("");
   };
