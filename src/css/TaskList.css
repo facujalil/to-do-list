@@ -4,14 +4,8 @@ ul {
   gap: 2rem;
 }
 
-.clear-list-button-container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 100%;
-}
-
-.clear-list-button {
+.clear-all-button {
+  align-self: end;
   font-size: 0.85em;
   font-family: "Roboto", sans-serif;
   font-weight: 700;

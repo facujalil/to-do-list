@@ -44,14 +44,12 @@ function TaskList() {
             ))}
           </ul>
 
-          <div className="clear-list-button-container">
-            <button
-              className="clear-list-button"
-              onClick={() => dispatch({ type: "clear_all" })}
-            >
-              Limpiar Todo
-            </button>
-          </div>
+          <button
+            className="clear-all-button"
+            onClick={() => dispatch({ type: "clear_all" })}
+          >
+            Limpiar Todo
+          </button>
         </>
       ) : null}
     </>
