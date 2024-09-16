@@ -8,41 +8,41 @@
   font-feature-settings: "ss04" on;
 }
 
-.dd-mm-yyyy {
+.day-month-year {
   display: flex;
   align-items: center;
   gap: 0.35rem;
 }
 
-.dd,
-.mm,
-.day {
+.day,
+.month,
+.weekday {
   font-weight: 700;
 }
 
-.dd {
+.day {
   font-size: 3.5em;
 }
 
-.mm {
+.month {
   text-transform: capitalize;
 }
 
-.yyyy {
+.year {
   font-weight: 400;
 }
 
-.mm-yyyy {
+.month-year {
   display: flex;
   flex-direction: column;
   font-size: 1.25em;
   line-height: 1em;
 }
 
-.day {
+.weekday {
   text-transform: uppercase;
 }
 
-.day span:not(:last-child) {
+.weekday span:not(:last-child) {
   letter-spacing: 6px;
 }
