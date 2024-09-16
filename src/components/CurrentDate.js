@@ -14,7 +14,7 @@ function CurrentDate() {
       <div className="dd-mm-yyyy">
         <span className="dd">{dd}</span>
         <div className="mm-yyyy">
-          <span className="mm">{mm[0].toUpperCase() + mm.slice(1)}</span>
+          <span className="mm">{mm}</span>
           <span className="yyyy">{yyyy}</span>
         </div>
       </div>

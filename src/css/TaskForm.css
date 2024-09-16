@@ -1,11 +1,8 @@
 form {
-  width: 100%;
-}
-
-.form-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0.5rem;
 }
 
 form input,
@@ -15,14 +12,13 @@ form button {
 }
 
 form input {
-  width: 15.5rem;
+  flex: 1;
   height: 2rem;
   padding: 0 0.8rem;
   font-size: 1em;
   outline: none;
   border: none;
   border-radius: 2px;
-  user-select: none;
 }
 
 form button {
@@ -31,10 +27,4 @@ form button {
   font-size: 1.25em;
   font-weight: 700;
   border-radius: 50%;
-}
-
-@media screen and (max-width: 350px) {
-  form input {
-    width: 13.5rem;
-  }
 }

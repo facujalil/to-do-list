@@ -21,17 +21,15 @@ function TaskForm({ dispatch }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="form-content">
-        <input
-          type="text"
-          name="task"
-          value={input}
-          autoComplete="off"
-          placeholder="Agregar tarea..."
-          onChange={(e) => setInput(e.target.value)}
-        />
-        <button>+</button>
-      </div>
+      <input
+        type="text"
+        name="task"
+        value={input}
+        autoComplete="off"
+        placeholder="Agregar tarea..."
+        onChange={(e) => setInput(e.target.value)}
+      />
+      <button>+</button>
     </form>
   );
 }

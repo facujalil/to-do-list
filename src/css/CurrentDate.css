@@ -24,6 +24,10 @@
   font-size: 3.5em;
 }
 
+.mm {
+  text-transform: capitalize;
+}
+
 .yyyy {
   font-weight: 400;
 }
