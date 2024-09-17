@@ -4,7 +4,7 @@ ul {
   gap: 0.75rem;
 }
 
-.clear-all-button {
+.delete-all-button {
   align-self: end;
   font-size: 0.85em;
   font-family: "Roboto", sans-serif;
