@@ -16,7 +16,7 @@ const reducer = (state, action) => {
       );
     case "delete_task":
       return state.filter((item) => item.id !== action.payload);
-    case "delete_all":
+    case "clear_all":
       return [];
     default:
       return state;
@@ -45,8 +45,8 @@ function TaskList() {
           </ul>
 
           <button
-            className="delete-all-button"
-            onClick={() => dispatch({ type: "delete_all" })}
+            className="clear-all-button"
+            onClick={() => dispatch({ type: "clear_all" })}
           >
             Borrar Todo
           </button>
